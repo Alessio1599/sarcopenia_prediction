@@ -1,0 +1,8 @@
+2025-03-08 16:38:27.223 | INFO     | __main__:load_preprocessed_data:37 - ✅Preprocessed data preprocessed_female.csv loaded successfully. Dataset Shape: 846 rows and 14 columns.
+2025-03-08 16:38:27.224 | INFO     | __main__:load_preprocessed_data:37 - ✅Preprocessed data preprocessed_male.csv loaded successfully. Dataset Shape: 286 rows and 14 columns.
+2025-03-08 16:38:27.224 | INFO     | __main__:create_experiment_dir:70 - ✅ Experiment directory created: experiments/experiment_2025-03-08_16-38-27
+2025-03-08 16:38:27.465 | INFO     | __main__:main:168 - ✅ Gradient Boosting model trained for Female patients.
+2025-03-08 16:38:27.471 | INFO     | __main__:main:173 - ✅ Female model saved at experiments/experiment_2025-03-08_16-38-27/gb_female.pkl
+2025-03-08 16:38:28.388 | INFO     | __main__:main:168 - ✅ Gradient Boosting model trained for Male patients.
+2025-03-08 16:38:28.392 | INFO     | __main__:main:173 - ✅ Male model saved at experiments/experiment_2025-03-08_16-38-27/gb_male.pkl
+2025-03-08 16:38:29.108 | INFO     | __main__:save_results_to_excel:132 - ✅Results saved to experiments/experiment_results.xlsx

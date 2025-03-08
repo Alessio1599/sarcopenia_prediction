@@ -1,0 +1,5 @@
+2025-03-08 16:30:20.148 | INFO     | __main__:load_raw_data:28 - Raw data loaded successfully from data/raw/Sampled_Sarcopenia_Data.csv. Dataset Shape: 1499 rows and 41 columns.
+2025-03-08 16:30:20.149 | INFO     | __main__:remove_leading_trailing_spaces:34 - Loading and trailing spaces removed from the column names.
+2025-03-08 16:30:20.152 | INFO     | __main__:remove_missing_values:43 - Rows with missing values removed: 367. Dataset Shape: 1132 rows and 14 columns.
+2025-03-08 16:30:20.153 | INFO     | __main__:encode_cat_features:83 - Categorical features encoded successfully.
+2025-03-08 16:30:20.159 | INFO     | __main__:main:125 - Preprocessed data saved successfully in data/preprocessed.
