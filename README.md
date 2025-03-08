@@ -2,14 +2,6 @@
 
 This project aims to predict **Sarcopenia**, which is the age-related progressive loss of muscle mass and strength, using machine learning. It involves preprocessing medical data, training a machine learning model (Gradient Boosting), and evaluating its performance. The dataset contains both **numerical** and **categorical** features, including data about **Hypertension (HT)** and other related health conditions.
 
-## Repository
-
-- **GitHub Repository**: [THINK25_WORKSHOP](https://github.com/yceran/THINK25_WORKSHOP)
-
-## Key Concepts
-
-- **Sarcopenia**: The age-related progressive loss of muscle mass and strength.
-- **HT (Hypertension)**: A medical condition where the force of the blood against the artery walls is too high.
 
 ## Project Steps
 
