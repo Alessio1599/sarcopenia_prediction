@@ -67,7 +67,14 @@ The configuration file (`configs/config.yml`) contains the necessary configurati
 - Paths to data and experiment directories
 - Hyperparameters for the model (e.g., `n_estimators`, `learning_rate`)
 
-## Running the script
+## Running the project
+
+Clone the repository:
+```bash
+git clone https//github.com/Alessio1599/sarcopenia_prediction.git
+cd src
+```
+
 To preprocess the data, run the following:
 ```bash
 python preprocessing.py
