@@ -1,0 +1,10 @@
+archive/
+
+data/
+
+references/
+
+sarcopenia_prediction_project.docx
+
+.DS_Store*
+__pycache__*
