@@ -63,7 +63,7 @@ This script processes the preprocessed data, trains a **Gradient Boosting** clas
 
 ## Configuration
 
-The configuration file (`configs/config.py`) contains the necessary configurations, including:
+The configuration file (`configs/config.yml`) contains the necessary configurations, including:
 - Paths to data and experiment directories
 - Hyperparameters for the model (e.g., `n_estimators`, `learning_rate`)
 
