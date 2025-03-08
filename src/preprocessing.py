@@ -11,7 +11,6 @@ os.makedirs(LOGS_DIR, exist_ok=True)
 from loguru import logger
 from datetime import datetime
 timestamp = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')  # Format: '2025-03-07_14-30-45'
-
 logger.add(os.path.join(LOGS_DIR, f'preprocessing_{timestamp}.log'))
 
 import sys
@@ -119,11 +118,11 @@ def main():
     df_female, df_male = split_by_gender(df)
     
     # Save preprocessed data
-    output_path = cfg['data']['preprocessed_root']
-    df_female.to_csv(f"{output_path}/preprocessed_female.csv", index=False)
-    df_male.to_csv(f"{output_path}/preprocessed_male.csv", index=False)
+    OUTPUT_DIR = cfg['data']['preprocessed_root']
+    df_female.to_csv(f"{OUTPUT_DIR}/preprocessed_female.csv", index=False)
+    df_male.to_csv(f"{OUTPUT_DIR}/preprocessed_male.csv", index=False)
     
-    logger.info(f"Preprocessed data saved successfully in {output_path}.")
+    logger.info(f"Preprocessed data saved successfully in {OUTPUT_DIR}.")
 
 
 if __name__ == '__main__':
